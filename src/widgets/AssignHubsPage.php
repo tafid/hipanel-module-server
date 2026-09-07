@@ -98,7 +98,7 @@ class AssignHubsPage extends Widget
     public function prepareHubComboOptions(string $variant, string $mainObjectType): array
     {
         $renameMap = [
-            'ipmi' => 'net',
+            'ipmi' => ['net'],
             'net' => ['net', 'pdu'],
         ];
 
